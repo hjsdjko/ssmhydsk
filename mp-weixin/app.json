@@ -1,0 +1,100 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/xinwenleixing/list",
+    "pages/xinwenleixing/add-or-update",
+    "pages/xinwenleixing/detail",
+    "pages/xinwenzixun/list",
+    "pages/xinwenzixun/add-or-update",
+    "pages/xinwenzixun/detail",
+    "pages/shangpinleixing/list",
+    "pages/shangpinleixing/add-or-update",
+    "pages/shangpinleixing/detail",
+    "pages/lvyoushangpin/list",
+    "pages/lvyoushangpin/add-or-update",
+    "pages/lvyoushangpin/detail",
+    "pages/lvyoujingdian/list",
+    "pages/lvyoujingdian/add-or-update",
+    "pages/lvyoujingdian/detail",
+    "pages/jingdianfenlei/list",
+    "pages/jingdianfenlei/add-or-update",
+    "pages/jingdianfenlei/detail",
+    "pages/shangpindingdan/list",
+    "pages/shangpindingdan/add-or-update",
+    "pages/shangpindingdan/detail",
+    "pages/menpiaoyuding/list",
+    "pages/menpiaoyuding/add-or-update",
+    "pages/menpiaoyuding/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discussxinwenzixun/list",
+    "pages/discussxinwenzixun/add-or-update",
+    "pages/discussxinwenzixun/detail",
+    "pages/discusslvyoushangpin/list",
+    "pages/discusslvyoushangpin/add-or-update",
+    "pages/discusslvyoushangpin/detail",
+    "pages/discusslvyoujingdian/list",
+    "pages/discusslvyoujingdian/add-or-update",
+    "pages/discusslvyoujingdian/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "旅游出行必备商城小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xinwenzixun/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/lvyoushangpin/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "旅游商品"
+      },
+      {
+        "pagePath": "pages/lvyoujingdian/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "旅游景点"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
